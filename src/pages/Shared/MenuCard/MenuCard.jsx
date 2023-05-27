@@ -1,8 +1,8 @@
 
 
-const MenuCard = ({ items }) => {
+const MenuCard = ({ item }) => {
 
-  const { name, price, image, recipe } = items;
+  const { name, price, image, recipe } = item;
 
   return (
     <div className="flex space-x-2">
