@@ -8,7 +8,6 @@ import soupImg from '../../../assets/menu/soup-bg.jpg'
 import useMenu from "../../../hooks/useMenu";
 import SectionTitle from "../../../components/sectionTitle";
 import MenuCategory from "../MenuCategory/MenuCategory";
-import MenuCard from "../../Shared/MenuCard/MenuCard";
 
 const Menu = () => {
   const [menu] = useMenu();
@@ -37,7 +36,7 @@ const Menu = () => {
       <MenuCategory
         items={dessert}
         img={dessertImg}
-        title={'Desserts'}
+        title={'dessert'}
         description={
           'Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
         }
@@ -46,7 +45,7 @@ const Menu = () => {
       <MenuCategory
         items={pizza}
         img={pizzaImg}
-        title={'Pizzas'}
+        title={'pizza'}
         description={
           'Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
         }
@@ -55,7 +54,7 @@ const Menu = () => {
       <MenuCategory
         items={salad}
         img={saladImg}
-        title={'Salads'}
+        title={'salad'}
         description={
           'Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
         }
@@ -64,7 +63,7 @@ const Menu = () => {
       <MenuCategory
         items={soup}
         img={soupImg}
-        title={'soups'}
+        title={'soup'}
         description={
           'Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
         }
